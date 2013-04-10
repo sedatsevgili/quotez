@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item 
+            android:id="@+id/menuItemPeople"
+            android:title="@string/people"
+            android:icon="@drawable/light_people"
+           ></item>
+        <item
+            android:id="@+id/menuItemLiked"
+            android:title="@string/liked"
+            android:icon="@drawable/light_liked"></item>
+        <item
+            android:id="@+id/menuItemClean"
+            android:title="@string/clean"
+            android:icon="@drawable/light_content_remove"></item>
+        <item 
+            android:id="@+id/menuItemCopy"
+            android:title="@string/copy"
+            android:icon="@drawable/light_content_copy"/>
+        	
+        <item
+            android:id="@+id/menuItemAbout"
+            android:title="@string/about"
+            android:icon="@drawable/light_action_about" />
+        
+        <item
+            android:id="@+id/menuItemContact"
+            android:title="@string/contact"
+            android:icon="@drawable/light_content_email" />
+    </menu>

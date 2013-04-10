@@ -1,0 +1,18 @@
+V1.1
+- 384 tane söz eklendi, 18 kişi eklendi.
+- arayuz hafif degistirilecek. Sol alt kosede menu butonu, alt ortada reklam, alt sagda yenile butonu. 
+- arkaplan değiştirilebilir.
+- sol alt kosedeki tusa basilinca simdi barda yer alan ve menuye basinca cikan itemlarin hepsinin yer aldigi bi menubar cikacak dikey olarak.
+- reklamlar her 60 saniyede 1 degil her 30 saniyede 1 yenilenecek.(bazen yüklenmesi 4-5 saniye bulunuyor)
+- hakkinda butonu menuye eklenecek.
+- iletisim butonu menuye eklenecek.
+
+V1.2
+- x tane söz eklenecek
+	emile zolanın 4 tane sözü var bunu arttırabiliriz (id: 434)
+- android 2.1de açılacak hale getirilecek program.
+- gelismis arama secenegi
+- sozler arasi gecis ekrani parmakla kaydirarak gerceklestirilecek, bir onceki soze de geri donus yapilabilecek boylece.
+- tema secimi
+- programi oner butonu menuye eklenecek.
+- reklam gosterim mantigi gelistirilecek(tiklandiginda daha az reklam gosterilecek, bazen parmakla kaydirma yapildiginda soz yerine reklam cikarilacak)

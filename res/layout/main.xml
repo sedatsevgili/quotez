@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+        <LinearLayout 
+            xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:background="@color/dark_grey"
+		    android:orientation="vertical" 
+		    android:id="@+id/linearLayoutMain"
+	    >
+    <TextView
+        android:id="@+id/textViewQuote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/quote_top_margin"
+        android:padding="@dimen/quote_padding"
+        android:text="@string/empty"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:scrollbars="vertical"
+        android:typeface="serif" />
+    <TextView
+        android:id="@+id/textViewPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="@dimen/person_top_margin"
+        android:padding="@dimen/person_padding"
+        android:text="@string/empty"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:layout_alignParentBottom="true">
+           <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <com.google.ads.AdView 
+	       		xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	       		android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                ads:adUnitId="a1507556e7107e4"
+                ads:adSize="BANNER"
+                ads:loadAdOnCreate="true"/>
+           
+            <LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:background="@color/background_blue"
+		    android:orientation="horizontal"
+		    android:layout_marginTop="10dip">
+		    
+		    <Button
+		        android:id="@+id/buttonMenu"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/dark_grid"
+		        android:padding="@dimen/button_padding"
+		        android:text="@string/empty" />
+		    
+		    <Button
+		        android:id="@+id/buttonRefresh"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/dark_navigation_refresh"
+		        android:padding="@dimen/button_padding"
+		        android:text="@string/empty" />
+		    
+		    <Button
+		        android:id="@+id/buttonLike"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/dark_rating_good"
+		        android:padding="@dimen/button_padding"
+		        android:text="@string/empty" />
+		    
+		    
+		    <RelativeLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content">
+		        <LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentRight="true"
+		        android:orientation="horizontal">
+		        <Button
+	            android:id="@+id/buttonShare"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/dark_social_share"
+	            android:padding="@dimen/button_padding"
+	            android:text="@string/empty" />
+			        <Button
+		            android:id="@+id/buttonSearch"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:background="@drawable/dark_action_search"
+		            android:padding="@dimen/button_padding"
+		            android:text="@string/empty" />
+		    </LinearLayout>
+		    </RelativeLayout>
+		    
+		</LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        
+	
+	</RelativeLayout></LinearLayout>
+</ScrollView>

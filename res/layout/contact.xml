@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/dark_grey"
+    android:orientation="vertical" 
+    >
+
+        <TextView
+            android:id="@+id/textViewContactHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_header"
+            android:textSize="@dimen/contact_header_size"
+            android:layout_marginTop="@dimen/contact_header_margin_top"
+            android:padding="@dimen/person_padding" />
+
+        <EditText
+            android:id="@+id/editTextNameSurname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/name_surname"
+            android:layout_margin="@dimen/edittext_margin" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email"
+            android:layout_margin="@dimen/edittext_margin" />
+
+        <EditText
+            android:id="@+id/editTextContent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="5"
+            android:inputType="textMultiLine"
+            android:hint="@string/content"
+            android:layout_margin="@dimen/edittext_margin" />
+
+        <Button
+            android:id="@+id/buttonContactSubmit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/edittext_margin"
+            android:text="@string/send" />
+        
+</LinearLayout>

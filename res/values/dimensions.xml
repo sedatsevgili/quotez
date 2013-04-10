@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="person_top_margin">20pt</dimen>
+    <dimen name="quote_top_margin">15pt</dimen>
+    <dimen name="vlog_margin">15pt</dimen>
+    <dimen name="quote_padding">3pt</dimen>
+    <dimen name="person_padding">4pt</dimen>
+    <dimen name="button_padding">1pt</dimen>
+    <dimen name="contact_header_size">8pt</dimen>
+    <dimen name="contact_header_margin_top">10pt</dimen>
+    <dimen name="edittext_margin">3pt</dimen>
+</resources>

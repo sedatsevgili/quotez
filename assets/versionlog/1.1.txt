@@ -1,0 +1,6 @@
+ * version 1.1 için yapılan yenilikler(22.10.2012):
+	- 384 adet özlü söz ve 18 ünlü eklendi.
+	- tasarım değişikliği yapıldı.
+	- menüye ulaşım kolaylaştırıldı.
+	- hakkında butonu menüye eklendi.
+	- iletişim butonu menüye eklendi.

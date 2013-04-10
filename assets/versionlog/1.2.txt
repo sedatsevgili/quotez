@@ -1,0 +1,4 @@
+ * version 1.2 için yapılan yenilikler(17.11.2012)
+ 	- tasarım değişikliği yapıldı
+ 	- sözler arası parmakla geçiş özelliği eklendi. ekrana çift tıkladığınızda yeni söz ekrana gelecektir.
+ 	- parmakla beğeni yönetimi özelliği eklendi. parmağınızı yukarıya sürüklediğinizde ekrandaki sözü beğenecek, aşağıya sürüklediğinizde ise ekrandaki sözü beğenilerinizden çıkarmış olacaksınız.

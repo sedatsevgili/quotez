@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Özlü Sözler</string>
+    <string name="empty"></string>
+   	<string name="search">Ara</string>
+   	<string name="people">Kişiler</string>
+   	<string name="liked">Favoriler</string>
+   	<string name="clean">Temizle</string>
+   	<string name="share">Paylaş</string>
+   	<string name="app_description">980 Ünlü Kişiden 9222 Ünlü Söz! İstediğiniz güzel ve özlü sözleri favorilerinize ekleyin, sms ya da sosyal ağlarınızda dilediğinizce paylaşın!</string>
+   	<string name="not_found">Uygun söz bulunamadı!</string>
+   	<string name="copy">Kopyala</string>
+   	<string name="copied">İçerik Kopyalandı!</string>
+   	<string name="about">Hakkında</string>
+   	<string name="about_content">980 Ünlü Kişiden 9222 Ünlü Söz! İstediğiniz güzel ve özlü sözleri favorilerinize ekleyin, sms ya da sosyal ağlarınızda dilediğinizce paylaşın!</string>
+   	<string name="contact">İletişim</string>
+   	<string name="liked_button_pressed">Söz favorilere eklendi!</string>
+   	<string name="unliked_button_pressed">Söz favorilerden çıkarıldı!</string>
+   	<string name="contact_header">Lütfen uygulama ile ilgili görüşleriniz paylaşmaktan çekinmeyin</string>
+   	<string name="name_surname">Adınız Soyadınız</string>
+   	<string name="email">Email Adresiniz</string>
+   	<string name="content">Mesajınız</string>
+   	<string name="send">Gönder</string>
+</resources>
